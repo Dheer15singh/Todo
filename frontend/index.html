@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>To-D0 app</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- form: input field and button  -->
+        <form>
+            <input id="task" type="text" name="task" placeholder="New task ...">
+            <button id="addBtn" type="button" onclick="addTask()">Add</button>
+        </form>
+
+        <!-- filter buttons -->
+        <div class="status">
+            <button id="all">All</button>
+            <button id="active">Active</button>
+            <button id="completed">Completed</button>
+        </div>
+
+        <!-- list where tasks will be added -->
+        <ul id="task-list">
+        </ul>
+    </div>
+
+    <script src="index.js"></script>        
+</body>
+</html>

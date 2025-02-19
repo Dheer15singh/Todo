@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+#task {
+    width: 85%;
+    height: 28px;
+    margin: 10px;
+    margin-left: 35px;
+}
+
+#addBtn {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(67, 197, 248);
+    color: white;
+    font-size: 16px;
+    height: 39px;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    width: 91.5%;
+    padding: 20px;
+    margin-top: -5px;
+    padding-left: 35px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    height: 35px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    list-style: none;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    padding-left: 14px;
+}
+
+.task-text {
+    flex: 1;
+}
+
+button {
+    margin: 10px;
+    padding: 5px 30px;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+}
+button:hover {
+    border-width: 5px;
+    color: rgb(4, 92, 192);
+    text-decoration: underline;
+}
+
+.edit-icon, .delete-icon {
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.todo-item .task-text{
+    text-decoration: none;
+}
+
+.completed .task-text{
+    text-decoration: line-through;
+}
