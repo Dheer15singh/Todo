@@ -36,32 +36,57 @@ Database: MySQL
 
 Follow these steps to set up and run the project locally:
 
+
 # 1️⃣ Clone the Repository
 
 git clone https://github.com/Dheer15singh/Todo.git
+
 cd todo-app
+
 
 # 2️⃣ Install Dependencies
 
 # Backend:
 
-cd backend
+1. cd backend
 
-npm install
+2. npm install
 
 # Frontend:
 
 No extra dependencies needed for the frontend.
 
+
 # 3️⃣ Setup MySQL Database
 
-Install MySQL if not installed.
+To set up the database, follow these steps:
 
-Create a MySQL database.
+1. Install MySQL if not installed.
 
-Import the required tables using the provided SQL script.
+2. Create a new MySQL database by running the following command:
 
-Update database credentials in backend/db.js.
+   CREATE DATABASE database_name;
+   
+   USE database_name;
+
+3. Create the tasks table by running:
+   
+   CREATE TABLE table_name (
+   
+      id INT NOT NULL AUTO_INCREMENT,
+   
+      taskName VARCHAR(255) NOT NULL,
+   
+      taskStatus ENUM('active', 'completed') NOT NULL DEFAULT 'active',
+   
+      taskOrder INT DEFAULT NULL,
+   
+      PRIMARY KEY (id)
+
+  );
+
+4. Update database credentials in backend/db.js with your MySQL connection details.
+   
 
 # 4️⃣ Run the Project
 
@@ -76,7 +101,9 @@ node index.js
 
 ![Todo tasks](https://github.com/user-attachments/assets/ab5e908c-7696-4476-9ef0-f052216ab2d8)
 
+
 ![Todo active](https://github.com/user-attachments/assets/6b0974eb-5d63-4eaf-a54b-224af318a5af)
+
 
 ![Todo complete](https://github.com/user-attachments/assets/8f091340-0743-40d1-a1b9-4c3f1e31ea70)
 
@@ -84,6 +111,7 @@ node index.js
 # 🤝 Contributing
 
 Feel free to contribute! Fork the repo, make your changes, and create a pull request.
+
 
 # 📜 License
 
