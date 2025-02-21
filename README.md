@@ -1,8 +1,10 @@
 # Todo App
 
+
 # 🚀 Overview
 
 A simple Todo App built using HTML, CSS, JavaScript for the frontend and Node.js, Express, MySQL for the backend. This app allows users to add, update, reorder, and delete tasks with real-time database integration.
+
 
 # 🛠️ Tech Stack
 
@@ -11,6 +13,7 @@ Frontend: HTML, CSS, JavaScript
 Backend: Node.js, Express.js
 
 Database: MySQL
+
 
 # 📌 Features
 
@@ -27,6 +30,7 @@ Database: MySQL
 ✅ Edit task name after creating it
 
 ✅ Delete tasks if completed or created by mistake
+
 
 # 🔧 Installation & Setup
 
@@ -64,6 +68,7 @@ Start Backend Server:
 
 cd backend
 node index.js
+
 
 # 📷 Screenshots
 
