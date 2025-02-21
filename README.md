@@ -46,6 +46,7 @@ cd todo-app
 Backend:
 
 cd backend
+
 npm install
 
 Frontend:
@@ -73,7 +74,9 @@ node index.js
 # 📷 Screenshots
 
 ![Todo tasks](https://github.com/user-attachments/assets/ab5e908c-7696-4476-9ef0-f052216ab2d8)
+
 ![Todo active](https://github.com/user-attachments/assets/6b0974eb-5d63-4eaf-a54b-224af318a5af)
+
 ![Todo complete](https://github.com/user-attachments/assets/8f091340-0743-40d1-a1b9-4c3f1e31ea70)
 
 
