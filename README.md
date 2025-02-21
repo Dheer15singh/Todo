@@ -43,13 +43,13 @@ cd todo-app
 
 # 2️⃣ Install Dependencies
 
-Backend:
+# Backend:
 
 cd backend
 
 npm install
 
-Frontend:
+# Frontend:
 
 No extra dependencies needed for the frontend.
 
@@ -68,6 +68,7 @@ Update database credentials in backend/db.js.
 Start Backend Server:
 
 cd backend
+
 node index.js
 
 
