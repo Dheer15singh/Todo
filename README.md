@@ -6,7 +6,7 @@ A simple Todo App built using HTML, CSS, JavaScript for the frontend and Node.js
 
 # 🛠️ Tech Stack
 
-## Frontend: HTML, CSS, JavaScript
+Frontend: HTML, CSS, JavaScript
 
 Backend: Node.js, Express.js
 
@@ -14,12 +14,18 @@ Database: MySQL
 
 # 📌 Features
 
-✅ Create new tasks
-✅ Mark tasks as completed (shown in the Completed tab with a line-through and checked box)
-✅ Active tasks remain in the Active tab
-✅ View all tasks in the All tab
+✅ Create new tasks.
+
+✅ Mark tasks as completed (shown in the Completed tab with a line-through and checked box).
+
+✅ Active tasks remain in the Active tab.
+
+✅ View all tasks in the All tab.
+
 ✅ Change task order based on priority after creation
+
 ✅ Edit task name after creating it
+
 ✅ Delete tasks if completed or created by mistake
 
 # 🔧 Installation & Setup
