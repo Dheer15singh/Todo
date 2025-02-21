@@ -1,4 +1,4 @@
-## Todo App
+# Todo App
 
 # 🚀 Overview
 
@@ -6,7 +6,7 @@ A simple Todo App built using HTML, CSS, JavaScript for the frontend and Node.js
 
 # 🛠️ Tech Stack
 
-Frontend: HTML, CSS, JavaScript
+## Frontend: HTML, CSS, JavaScript
 
 Backend: Node.js, Express.js
 
