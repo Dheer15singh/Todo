@@ -94,7 +94,7 @@ Start Backend Server:
 
 cd backend
 
-node index.js
+node app.js
 
 
 # 📷 Screenshots
